@@ -18,7 +18,7 @@ def make_player():
 
     age = int(input('What is your age? (You must be 18+ to gamble) '))
     if age < 18:
-        print('You are not allowed to play. This program will close now')
+        print('You are not allowed to play. This program will close now.')
         time.sleep(3)
         exit()
     else:
